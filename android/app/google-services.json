@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "589103100533",
+    "project_id": "ecom-manager-80fcc",
+    "storage_bucket": "ecom-manager-80fcc.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:589103100533:android:881dffe15966ce53703e3c",
+        "android_client_info": {
+          "package_name": "com.example.ecom_manager"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCg9OyFp4pfzlqCODdyu4wE5Yq3Sk1pvy8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

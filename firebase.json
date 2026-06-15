@@ -1,0 +1,38 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "ecom-manager-80fcc",
+          "appId": "1:589103100533:android:881dffe15966ce53703e3c",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "ecom-manager-80fcc",
+          "configurations": {
+            "android": "1:589103100533:android:881dffe15966ce53703e3c",
+            "ios": "1:589103100533:ios:87a0361c8539dc28703e3c",
+            "macos": "1:589103100533:ios:87a0361c8539dc28703e3c",
+            "web": "1:589103100533:web:6bdba3363502fe4b703e3c"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

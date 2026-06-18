@@ -3,9 +3,9 @@
 // New user registration page
 // ============================================================
 
+import 'package:ecom_manager/utils/constants.dart';
 import 'package:flutter/material.dart';
-import '../services/auth_service.dart';
-import '../utils/constants.dart';
+import 'auth_service.dart';
 
 class SignupScreen extends StatefulWidget {
   const SignupScreen({super.key});

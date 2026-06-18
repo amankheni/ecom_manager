@@ -3,9 +3,10 @@
 // Sends password reset email to user
 // ============================================================
 
+import 'package:ecom_manager/utils/constants.dart';
 import 'package:flutter/material.dart';
-import '../services/auth_service.dart';
-import '../utils/constants.dart';
+import 'auth_service.dart';
+
 
 class ForgotPasswordScreen extends StatefulWidget {
   const ForgotPasswordScreen({super.key});

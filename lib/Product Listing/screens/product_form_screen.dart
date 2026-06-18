@@ -5,11 +5,12 @@
 // ============================================================
 
 import 'dart:typed_data';
+import 'package:ecom_manager/utils/constants.dart';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 import '../models/product.dart';
 import '../services/product_service.dart';
-import '../utils/constants.dart';
+
 
 class ProductFormScreen extends StatefulWidget {
   final Product? product; // null = Add mode, non-null = Edit mode

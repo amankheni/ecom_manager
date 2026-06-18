@@ -3,10 +3,11 @@
 // Product listing with DataTable, search, and filter
 // ============================================================
 
+import 'package:ecom_manager/utils/constants.dart';
 import 'package:flutter/material.dart';
 import '../models/product.dart';
 import '../services/product_service.dart';
-import '../utils/constants.dart';
+
 import 'product_form_screen.dart';
 import 'product_detail_screen.dart';
 

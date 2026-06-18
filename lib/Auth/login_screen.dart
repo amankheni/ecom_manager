@@ -3,9 +3,10 @@
 // Login page with email/password + forgot password link
 // ============================================================
 
+import 'package:ecom_manager/utils/constants.dart';
 import 'package:flutter/material.dart';
-import '../services/auth_service.dart';
-import '../utils/constants.dart';
+import 'auth_service.dart';
+
 import 'signup_screen.dart';
 import 'forgot_password_screen.dart';
 

@@ -3,10 +3,11 @@
 // View-only page showing all product details
 // ============================================================
 
+import 'package:ecom_manager/utils/constants.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import '../models/product.dart';
-import '../utils/constants.dart';
+
 
 class ProductDetailScreen extends StatelessWidget {
   final Product product;

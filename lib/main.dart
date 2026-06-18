@@ -3,16 +3,16 @@
 // App entry point — initializes Firebase and sets up routing
 // ============================================================
 
+import 'package:ecom_manager/utils/constants.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:provider/provider.dart';
 
 import 'firebase_options.dart';
-import 'utils/constants.dart';
-import 'utils/auth_provider.dart' as app_auth;
-import 'screens/login_screen.dart';
-import 'screens/home_screen.dart';
+import 'Auth/auth_provider.dart' as app_auth;
+import 'Auth/login_screen.dart';
+import 'Product Listing/screens/home_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();

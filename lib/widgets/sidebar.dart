@@ -6,7 +6,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../utils/constants.dart';
-import '../utils/auth_provider.dart';
+import '../../Auth/auth_provider.dart';
 
 class AppSidebar extends StatelessWidget {
   final int selectedIndex;
@@ -153,16 +153,11 @@ class AppSidebar extends StatelessWidget {
                   _divider(),
 
                   _sectionHeader('PRODUCTION'),
-                  _menuItem(Icons.bar_chart_rounded, 'Inventory Dashboard', 2),
-                  _menuItem(Icons.shopping_bag_outlined, 'Fabric Purchase', 3),
-                  _menuItem(Icons.print_rounded, 'Digital Printing', 4),
-                  _menuItem(
-                    Icons.precision_manufacturing_outlined,
-                    'Production',
-                    5,
-                  ),
-                  _menuItem(Icons.checkroom_rounded, 'Ready Stock', 6),
-                  _menuItem(Icons.summarize_rounded, 'Reports', 7),
+                  _menuItem(Icons.receipt_long_outlined, 'Cloth Purchase', 2),
+                  _menuItem(Icons.print_outlined, 'Digital Print', 3),
+                  _menuItem(Icons.content_cut_outlined, 'Stitching', 4),
+                  _menuItem(Icons.warehouse_outlined, 'Ready Stock', 5),
+                  _menuItem(Icons.warehouse_outlined, 'Production pipeline', 6),
 
                   const SizedBox(height: 20),
                 ],
@@ -308,12 +303,11 @@ class _CompactSidebar extends StatelessWidget {
   static const _items = [
     (Icons.dashboard_rounded, 'Dashboard', 0),
     (Icons.inventory_2_rounded, 'Products', 1),
-    (Icons.bar_chart_rounded, 'Inventory', 2),
-    (Icons.shopping_bag_outlined, 'Fabric', 3),
-    (Icons.print_rounded, 'Printing', 4),
-    (Icons.precision_manufacturing_outlined, 'Production', 5),
-    (Icons.checkroom_rounded, 'Stock', 6),
-    (Icons.summarize_rounded, 'Reports', 7),
+    (Icons.bar_chart_rounded, 'Cloth Purchase', 2),
+    (Icons.shopping_bag_outlined, 'Digital Print', 3),
+    (Icons.print_rounded, 'Stitching', 4),
+    (Icons.precision_manufacturing_outlined, 'Ready Stock', 5),
+    (Icons.warehouse_outlined, 'Production pipeline', 6),
   ];
 
   @override

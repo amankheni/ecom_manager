@@ -3,9 +3,10 @@
 // Shows total, active, and inactive product counts
 // ============================================================
 
+import 'package:ecom_manager/utils/constants.dart';
 import 'package:flutter/material.dart';
 import '../services/product_service.dart';
-import '../utils/constants.dart';
+
 
 class DashboardScreen extends StatefulWidget {
   const DashboardScreen({super.key});
